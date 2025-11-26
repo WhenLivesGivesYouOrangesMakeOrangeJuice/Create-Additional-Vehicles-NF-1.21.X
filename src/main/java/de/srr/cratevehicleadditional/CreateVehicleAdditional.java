@@ -1,5 +1,7 @@
 package de.srr.cratevehicleadditional;
 
+import de.srr.cratevehicleadditional.Items.ModItems;
+import net.minecraft.world.item.CreativeModeTabs;
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;
@@ -22,7 +24,7 @@ import net.neoforged.neoforge.event.server.ServerStartingEvent;
 @Mod(CreateVehicleAdditional.MOD_ID)
 public class CreateVehicleAdditional {
     // Define mod id in a common place for everything to reference
-    public static final String MOD_ID = "createvehicleadditional";
+    public static final String MOD_ID = "createvehiclesadditional";
     // Directly reference a slf4j logger
     public static final Logger LOGGER = LogUtils.getLogger();
 
@@ -57,7 +59,9 @@ public class CreateVehicleAdditional {
 
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
-
+        if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
+            event.accept(ModItems.CARBON);
+        }
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call
