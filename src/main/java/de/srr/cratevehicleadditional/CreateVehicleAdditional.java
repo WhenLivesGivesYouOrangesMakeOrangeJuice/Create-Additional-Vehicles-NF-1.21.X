@@ -71,6 +71,9 @@ public class CreateVehicleAdditional {
         if(event.getTabKey() == CreativeModeTabs.FUNCTIONAL_BLOCKS) {
             event.accept(ModBlocks.TEMPERATURE_OVEN);
         }
+        if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
+            event.accept(ModItems.POLYACRYLONITRILE_POWDER);
+        }
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call

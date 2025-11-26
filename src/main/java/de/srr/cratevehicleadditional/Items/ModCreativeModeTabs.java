@@ -4,7 +4,6 @@ import de.srr.cratevehicleadditional.Blocks.ModBlocks;
 import de.srr.cratevehicleadditional.CreateVehicleAdditional;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
-import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.ItemStack;
 import net.neoforged.bus.api.IEventBus;
@@ -18,12 +17,13 @@ public class ModCreativeModeTabs {
 
     public static final Supplier<CreativeModeTab> BISMUTH_ITEMS_TAB = CREATIVE_MODE_TAB.register("mod_items_tab",
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.CARBON.get()))
-                    .title(Component.translatable("creativetab.createvehicleadditional.modItems"))
+                    .title(Component.translatable("creativetab.createvehiclesadditional.modItems"))
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModItems.CARBON);
                         output.accept(ModBlocks.BLOCK_OF_CARBON);
                         output.accept(ModBlocks.TEMPERATURE_OVEN);
                         output.accept(ModItems.BUCKET_OF_ACRYLONITRILE);
+                        output.accept(ModItems.POLYACRYLONITRILE_POWDER);
                     }).build());
 
 
