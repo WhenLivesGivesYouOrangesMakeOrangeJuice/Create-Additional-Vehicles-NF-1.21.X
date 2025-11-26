@@ -1,3 +1,7 @@
 {
-  "item.createvehiclesadditional.carbon": "Carbon"
+  "item.createvehiclesadditional.carbon": "Carbon",
+  "item.createvehiclesadditional.bucket_of_acrylonitrile": "Bucket of Acrylonitrile",
+
+  "block.createvehiclesadditional.block_of_carbon": "Block of Carbon",
+  "block.createvehiclesadditional.temperature_oven": "Temperature Oven"
 }

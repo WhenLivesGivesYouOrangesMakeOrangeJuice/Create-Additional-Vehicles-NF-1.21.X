@@ -3,6 +3,7 @@ package de.srr.cratevehicleadditional.Items;
 import de.srr.cratevehicleadditional.CreateVehicleAdditional;
 import net.minecraft.world.item.Item;
 import net.neoforged.bus.api.IEventBus;
+import net.neoforged.neoforge.common.Tags;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
 
@@ -12,8 +13,14 @@ public class ModItems{
 
     public static final DeferredItem<Item> CARBON = ITEMS.registerItem(
             "carbon",
-            Item::new, // The factory that the properties will be passed into.
-            new Item.Properties() // The properties to use.
+            Item::new,
+            new Item.Properties()
+    );
+
+    public static final DeferredItem<Item> BUCKET_OF_ACRYLONITRILE = ITEMS.registerItem(
+            "bucket_of_acrylonitrile",
+            Item::new,
+            new Item.Properties()
     );
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);
