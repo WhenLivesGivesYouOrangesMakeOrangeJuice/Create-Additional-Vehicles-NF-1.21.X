@@ -1,5 +1,6 @@
-package de.srr.cratevehicleadditional;
+package de.srr.cratevehicleadditional.Items;
 
+import de.srr.cratevehicleadditional.CreateVehicleAdditional;
 import net.minecraft.world.item.Item;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredItem;
