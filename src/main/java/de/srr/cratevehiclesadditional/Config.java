@@ -1,4 +1,4 @@
-package de.srr.cratevehicleadditional;
+package de.srr.cratevehiclesadditional;
 
 import java.util.List;
 

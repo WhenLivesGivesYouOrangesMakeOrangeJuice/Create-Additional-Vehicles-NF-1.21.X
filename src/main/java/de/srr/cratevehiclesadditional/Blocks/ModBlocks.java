@@ -1,23 +1,21 @@
-package de.srr.cratevehicleadditional.Blocks;
+package de.srr.cratevehiclesadditional.Blocks;
 
-import de.srr.cratevehicleadditional.CreateVehicleAdditional;
-import de.srr.cratevehicleadditional.Items.ModItems;
+import de.srr.cratevehiclesadditional.CreateVehiclesAdditional;
+import de.srr.cratevehiclesadditional.Items.ModItems;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredBlock;
-import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
 
 import java.util.function.Supplier;
 
 public class ModBlocks {
 
-    public static final DeferredRegister.Blocks BLOCKS = DeferredRegister.createBlocks(CreateVehicleAdditional.MOD_ID);
+    public static final DeferredRegister.Blocks BLOCKS = DeferredRegister.createBlocks(CreateVehiclesAdditional.MOD_ID);
 
     public static final DeferredBlock<Block> BLOCK_OF_CARBON = registerBlock("block_of_carbon",
             () -> new Block(BlockBehaviour.Properties.of()
@@ -26,6 +24,13 @@ public class ModBlocks {
     public static final DeferredBlock<Block> TEMPERATURE_OVEN = registerBlock("temperature_oven",
             () -> new Block(BlockBehaviour.Properties.of()
                     .strength(4f).requiresCorrectToolForDrops().sound(SoundType.CALCITE)));
+
+    public static final DeferredBlock<Block> CARBON_FIBER_BLOCK = registerBlock("carbon_fiber_block",
+            () -> new Block(BlockBehaviour.Properties.of()
+                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.NETHERITE_BLOCK)));
+
+
+
 
     private static <T extends Block> void registerBlockItem(String name, DeferredBlock<T> block) {
         ModItems.ITEMS.register(name,

@@ -1,8 +1,8 @@
-package de.srr.cratevehicleadditional;
+package de.srr.cratevehiclesadditional;
 
-import de.srr.cratevehicleadditional.Blocks.ModBlocks;
-import de.srr.cratevehicleadditional.Items.ModCreativeModeTabs;
-import de.srr.cratevehicleadditional.Items.ModItems;
+import de.srr.cratevehiclesadditional.Blocks.ModBlocks;
+import de.srr.cratevehiclesadditional.Items.ModCreativeModeTabs;
+import de.srr.cratevehiclesadditional.Items.ModItems;
 import net.minecraft.world.item.CreativeModeTabs;
 import org.slf4j.Logger;
 
@@ -23,8 +23,8 @@ import net.neoforged.neoforge.event.server.ServerStartingEvent;
 
 
 // The value here should match an entry in the META-INF/neoforge.mods.toml file
-@Mod(CreateVehicleAdditional.MOD_ID)
-public class CreateVehicleAdditional {
+@Mod(CreateVehiclesAdditional.MOD_ID)
+public class CreateVehiclesAdditional {
     // Define mod id in a common place for everything to reference
     public static final String MOD_ID = "createvehiclesadditional";
     // Directly reference a slf4j logger
@@ -32,7 +32,7 @@ public class CreateVehicleAdditional {
 
     // The constructor for the mod class is the first code that is run when your mod is loaded.
     // FML will recognize some parameter types like IEventBus or ModContainer and pass them in automatically.
-    public CreateVehicleAdditional(IEventBus modEventBus, ModContainer modContainer) {
+    public CreateVehiclesAdditional(IEventBus modEventBus, ModContainer modContainer) {
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
 
@@ -67,6 +67,7 @@ public class CreateVehicleAdditional {
         }
         if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
             event.accept(ModBlocks.BLOCK_OF_CARBON);
+            event.accept(ModBlocks.CARBON_FIBER_BLOCK);
         }
         if(event.getTabKey() == CreativeModeTabs.FUNCTIONAL_BLOCKS) {
             event.accept(ModBlocks.TEMPERATURE_OVEN);
@@ -83,7 +84,7 @@ public class CreateVehicleAdditional {
     }
 
     // You can use EventBusSubscriber to automatically register all static methods in the class annotated with @SubscribeEvent
-    @EventBusSubscriber(modid = CreateVehicleAdditional.MOD_ID, bus = EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
+    @EventBusSubscriber(modid = CreateVehiclesAdditional.MOD_ID, bus = EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
     static class ClientModEvents {
         @SubscribeEvent
         static void onClientSetup(FMLClientSetupEvent event) {
