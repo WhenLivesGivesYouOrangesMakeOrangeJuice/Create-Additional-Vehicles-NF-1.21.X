@@ -1,8 +1,8 @@
-package de.srr.cratevehiclesadditional;
+package de.srr.createvehiclesadditional;
 
-import de.srr.cratevehiclesadditional.Blocks.ModBlocks;
-import de.srr.cratevehiclesadditional.Items.ModCreativeModeTabs;
-import de.srr.cratevehiclesadditional.Items.ModItems;
+import de.srr.createvehiclesadditional.Blocks.ModBlocks;
+import de.srr.createvehiclesadditional.Items.ModCreativeModeTabs;
+import de.srr.createvehiclesadditional.Items.ModItems;
 import net.minecraft.world.item.CreativeModeTabs;
 import org.slf4j.Logger;
 

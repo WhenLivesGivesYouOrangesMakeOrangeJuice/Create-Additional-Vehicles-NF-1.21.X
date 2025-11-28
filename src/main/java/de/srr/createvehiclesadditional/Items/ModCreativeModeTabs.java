@@ -1,7 +1,7 @@
-package de.srr.cratevehiclesadditional.Items;
+package de.srr.createvehiclesadditional.Items;
 
-import de.srr.cratevehiclesadditional.Blocks.ModBlocks;
-import de.srr.cratevehiclesadditional.CreateVehiclesAdditional;
+import de.srr.createvehiclesadditional.Blocks.ModBlocks;
+import de.srr.createvehiclesadditional.CreateVehiclesAdditional;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
@@ -26,6 +26,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.POLYACRYLONITRILE_POWDER);
                         output.accept(ModBlocks.CARBON_FIBER_BLOCK);
                         output.accept(ModItems.CARBON_ALLOY);
+                        output.accept(ModItems.CARBON_SHEET);
                     }).build());
 
 

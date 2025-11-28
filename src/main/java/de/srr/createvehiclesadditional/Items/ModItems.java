@@ -1,6 +1,6 @@
-package de.srr.cratevehiclesadditional.Items;
+package de.srr.createvehiclesadditional.Items;
 
-import de.srr.cratevehiclesadditional.CreateVehiclesAdditional;
+import de.srr.createvehiclesadditional.CreateVehiclesAdditional;
 import net.minecraft.world.item.Item;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredItem;
@@ -30,6 +30,12 @@ public class ModItems{
 
     public static final DeferredItem<Item> CARBON_ALLOY = ITEMS.registerItem(
             "carbon_alloy",
+            Item::new,
+            new Item.Properties()
+    );
+
+    public static final DeferredItem<Item> CARBON_SHEET = ITEMS.registerItem(
+            "carbon_sheet",
             Item::new,
             new Item.Properties()
     );

@@ -1,9 +1,8 @@
-package de.srr.cratevehiclesadditional.datagen;
+package de.srr.createvehiclesadditional.datagen;
 
-import de.srr.cratevehiclesadditional.Items.ModItems;
+import de.srr.createvehiclesadditional.Items.ModItems;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
-import net.neoforged.neoforge.common.NeoForge;
 import net.neoforged.neoforge.common.data.DataMapProvider;
 import net.neoforged.neoforge.registries.datamaps.builtin.FurnaceFuel;
 import net.neoforged.neoforge.registries.datamaps.builtin.NeoForgeDataMaps;

@@ -1,8 +1,8 @@
-package de.srr.cratevehiclesadditional.datagen;
+package de.srr.createvehiclesadditional.datagen;
 
 
-import de.srr.cratevehiclesadditional.Blocks.ModBlocks;
-import de.srr.cratevehiclesadditional.CreateVehiclesAdditional;
+import de.srr.createvehiclesadditional.Blocks.ModBlocks;
+import de.srr.createvehiclesadditional.CreateVehiclesAdditional;
 import net.minecraft.data.PackOutput;
 import net.neoforged.neoforge.client.model.generators.BlockStateProvider;
 import net.neoforged.neoforge.common.data.ExistingFileHelper;

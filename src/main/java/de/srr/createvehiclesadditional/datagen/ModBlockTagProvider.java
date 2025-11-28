@@ -1,7 +1,7 @@
-package de.srr.cratevehiclesadditional.datagen;
+package de.srr.createvehiclesadditional.datagen;
 
-import de.srr.cratevehiclesadditional.Blocks.ModBlocks;
-import de.srr.cratevehiclesadditional.CreateVehiclesAdditional;
+import de.srr.createvehiclesadditional.Blocks.ModBlocks;
+import de.srr.createvehiclesadditional.CreateVehiclesAdditional;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.tags.BlockTags;

@@ -1,7 +1,7 @@
-package de.srr.cratevehiclesadditional.Blocks;
+package de.srr.createvehiclesadditional.Blocks;
 
-import de.srr.cratevehiclesadditional.CreateVehiclesAdditional;
-import de.srr.cratevehiclesadditional.Items.ModItems;
+import de.srr.createvehiclesadditional.CreateVehiclesAdditional;
+import de.srr.createvehiclesadditional.Items.ModItems;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;

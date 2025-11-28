@@ -1,8 +1,8 @@
-package de.srr.cratevehiclesadditional.datagen;
+package de.srr.createvehiclesadditional.datagen;
 
-import de.srr.cratevehiclesadditional.CreateVehiclesAdditional;
-import de.srr.cratevehiclesadditional.Items.ModItems;
-import de.srr.cratevehiclesadditional.util.ModTags;
+import de.srr.createvehiclesadditional.CreateVehiclesAdditional;
+import de.srr.createvehiclesadditional.Items.ModItems;
+import de.srr.createvehiclesadditional.util.ModTags;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.tags.ItemTagsProvider;
