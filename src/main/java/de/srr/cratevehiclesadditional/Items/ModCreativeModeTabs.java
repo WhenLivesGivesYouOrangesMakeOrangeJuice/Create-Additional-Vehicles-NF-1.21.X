@@ -35,6 +35,3 @@ public class ModCreativeModeTabs {
         CREATIVE_MODE_TAB.register(eventBus);
     }
 }
-
-
-
