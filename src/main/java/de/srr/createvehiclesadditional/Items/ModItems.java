@@ -28,6 +28,18 @@ public class ModItems{
             new Item.Properties()
     );
 
+    public static final DeferredItem<Item> CARBON_ALLOY = ITEMS.registerItem(
+            "carbon_alloy",
+            Item::new,
+            new Item.Properties()
+    );
+
+    public static final DeferredItem<Item> CARBON_SHEET = ITEMS.registerItem(
+            "carbon_sheet",
+            Item::new,
+            new Item.Properties()
+    );
+
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);
     }

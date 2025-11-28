@@ -16,5 +16,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         basicItem(ModItems.CARBON.get());
         basicItem(ModItems.BUCKET_OF_ACRYLONITRILE.get());
         basicItem(ModItems.POLYACRYLONITRILE_POWDER.get());
+        basicItem(ModItems.CARBON_ALLOY.get());
+        basicItem(ModItems.CARBON_SHEET.get());
     }
 }

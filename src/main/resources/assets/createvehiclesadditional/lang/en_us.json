@@ -2,6 +2,8 @@
   "item.createvehiclesadditional.carbon": "Carbon",
   "item.createvehiclesadditional.bucket_of_acrylonitrile": "Bucket of Acrylonitrile",
   "item.createvehiclesadditional.polyacrylonitrile_powder": "Polyacrylonitrile Powder",
+  "item.createvehiclesadditional.carbon_alloy": "Carbon Alloy",
+  "item.createvehiclesadditional.carbon_sheet": "Carbon Sheet",
 
   "block.createvehiclesadditional.block_of_carbon": "Block of Carbon",
   "block.createvehiclesadditional.temperature_oven": "Temperature Oven",
