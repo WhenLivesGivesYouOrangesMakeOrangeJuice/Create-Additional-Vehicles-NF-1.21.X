@@ -25,6 +25,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.BUCKET_OF_ACRYLONITRILE);
                         output.accept(ModItems.POLYACRYLONITRILE_POWDER);
                         output.accept(ModBlocks.CARBON_FIBER_BLOCK);
+                        output.accept(ModItems.CARBON_ALLOY);
                     }).build());
 
 
