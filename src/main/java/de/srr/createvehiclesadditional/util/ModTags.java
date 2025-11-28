@@ -1,11 +1,10 @@
-package de.srr.cratevehiclesadditional.util;
+package de.srr.createvehiclesadditional.util;
 
-import de.srr.cratevehiclesadditional.CreateVehiclesAdditional;
+import de.srr.createvehiclesadditional.CreateVehiclesAdditional;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.tags.BlockTags;
 import net.minecraft.tags.ItemTags;
 import net.minecraft.tags.TagKey;
-import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
 

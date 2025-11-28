@@ -1,8 +1,8 @@
-package de.srr.cratevehiclesadditional;
+package de.srr.createvehiclesadditional;
 
-import de.srr.cratevehiclesadditional.Blocks.ModBlocks;
-import de.srr.cratevehiclesadditional.Items.ModCreativeModeTabs;
-import de.srr.cratevehiclesadditional.Items.ModItems;
+import de.srr.createvehiclesadditional.Blocks.ModBlocks;
+import de.srr.createvehiclesadditional.Items.ModCreativeModeTabs;
+import de.srr.createvehiclesadditional.Items.ModItems;
 import net.minecraft.world.item.CreativeModeTabs;
 import org.slf4j.Logger;
 
@@ -42,6 +42,7 @@ public class CreateVehiclesAdditional {
         ModItems.register(modEventBus);
         // Register the Deferred Register to the mod event bus so tabs get registered
         ModCreativeModeTabs.register(modEventBus);
+
 
         // Register ourselves for server and other game events we are interested in.
         // Note that this is necessary if and only if we want *this* class (ExampleMod) to respond directly to events.
