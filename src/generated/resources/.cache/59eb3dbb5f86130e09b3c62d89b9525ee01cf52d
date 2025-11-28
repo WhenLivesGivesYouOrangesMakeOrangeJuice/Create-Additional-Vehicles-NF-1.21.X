@@ -1,0 +1,4 @@
+// 1.21	2025-11-27T19:48:24.2979247	Loot Tables
+3a899e0f3f369732bd3cd8f7b1d08044a6e8b2de data/createvehiclesadditional/loot_table/blocks/block_of_carbon.json
+6165f980cf56b67d42ff0de0c2f0408db771b154 data/createvehiclesadditional/loot_table/blocks/carbon_fiber_block.json
+f5c059c3bde2f356021fbd6ab785d21d038db43b data/createvehiclesadditional/loot_table/blocks/temperature_oven.json
