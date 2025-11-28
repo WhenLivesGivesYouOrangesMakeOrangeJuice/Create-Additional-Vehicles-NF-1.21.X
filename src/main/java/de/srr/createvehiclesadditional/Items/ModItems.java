@@ -1,7 +1,6 @@
-package de.srr.createvehiclesadditional.Items;
+package de.srr.cratevehiclesadditional.Items;
 
-import de.srr.createvehiclesadditional.CreateVehiclesAdditional;
-import net.minecraft.world.item.BucketItem;
+import de.srr.cratevehiclesadditional.CreateVehiclesAdditional;
 import net.minecraft.world.item.Item;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredItem;
@@ -28,15 +27,6 @@ public class ModItems{
             Item::new,
             new Item.Properties()
     );
-
-    public static final DeferredItem<Item> CARBON_FIBER = ITEMS.registerItem(
-            "carbon_fiber",
-            Item::new,
-            new Item.Properties()
-    );
-
-
-
 
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);
