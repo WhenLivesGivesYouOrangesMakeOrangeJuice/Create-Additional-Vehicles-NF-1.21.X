@@ -27,6 +27,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.CARBON_FIBER_BLOCK);
                         output.accept(ModItems.CARBON_ALLOY);
                         output.accept(ModItems.CARBON_SHEET);
+                        output.accept(ModItems.CARBON_NUGGET);
                     }).build());
 
 
